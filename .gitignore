@@ -1,0 +1,9 @@
+# YouTube API (no versionar credenciales ni token)
+client_secret.json
+token.json
+
+# Salida de estadísticas (generados por los primitives)
+videos_stats.csv
+analisis_canal.md
+__pycache__/
+*.pyc
