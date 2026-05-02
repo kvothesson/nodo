@@ -1,0 +1,9 @@
+{
+  "name": "nodo",
+  "description": "Personal context loader — carga tu contexto completo al inicio de cualquier sesión",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kvothesson"
+  },
+  "homepage": "https://github.com/kvothesson/nodo"
+}
