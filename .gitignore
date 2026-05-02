@@ -1,9 +1,41 @@
-# YouTube API (no versionar credenciales ni token)
-client_secret.json
-token.json
+# Credenciales — NUNCA commitear
+*.json
+!.claude-plugin/plugin.json
+.env*
+*token*
+*secret*
+*credentials*
 
-# Salida de estadísticas (generados por los primitives)
-videos_stats.csv
-analisis_canal.md
-__pycache__/
-*.pyc
+# Contexto personal
+memory/*.md
+!memory/*.example.md
+yo/*.md
+!yo/*.example.md
+proyectos/*/contexto.md
+
+# Directorios de contenido privado
+inbox/*
+ideas/*
+conocimiento/*
+aprendizajes/*
+kvothesson/
+gran-presidente/
+universe/
+produccion/
+musica/
+nakama/
+factorio/
+data/
+out/
+.claude/
+.cursor/
+
+# Archivos sueltos
+*.py
+*.png
+*.jpg
+*.csv
+
+# Excepciones públicas
+!inbox/README.md
+!proyectos/*.example.md
