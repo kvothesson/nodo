@@ -1,6 +1,6 @@
 # nodo
 
-Plugin de Claude Code — contexto personal persistente entre sesiones.
+Compatible con **Claude Code** y **OpenAI Codex** — contexto personal persistente entre sesiones.
 
 ## Qué hace
 
@@ -10,6 +10,16 @@ Plugin de Claude Code — contexto personal persistente entre sesiones.
 
 ```bash
 claude --plugin-dir /ruta/a/nodo
+```
+
+### OpenAI Codex
+
+No requiere instalación. Codex lee `AGENTS.md` automáticamente al abrirse en este directorio.
+
+```bash
+git clone https://github.com/kvothesson/nodo ~/nodo
+cd ~/nodo
+codex
 ```
 
 ## Setup
