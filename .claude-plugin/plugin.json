@@ -1,9 +1,11 @@
 {
   "name": "nodo",
+  "version": "1.0.1",
   "description": "Personal context loader — carga tu contexto completo al inicio de cualquier sesión",
-  "version": "1.0.0",
   "author": {
     "name": "Kvothesson"
   },
-  "homepage": "https://github.com/kvothesson/nodo"
+  "homepage": "https://github.com/kvothesson/nodo",
+  "repository": "https://github.com/kvothesson/nodo",
+  "license": "MIT"
 }
